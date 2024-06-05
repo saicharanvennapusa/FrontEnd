@@ -1,0 +1,58 @@
+.incButton {
+background-color: yellow;
+Padding: 10px;
+width: 100px;
+margin:2px;
+border-radius: 5px;
+}
+
+.decButton {
+background-color: Red;
+Padding: 10px;
+width: 100px;
+margin:2px;
+border-radius: 5px;
+}
+
+
+.cards {
+margin: 20px;
+padding: 0;
+display: grid;
+gap: 20px;
+grid-template-columns: 1fr 1fr
+}
+
+.card{
+ 
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer; /* Imp on clickables */
+}
+
+
+.card-inner {
+list-style: none;
+padding:20px;
+text-align: center;
+border-radius: 5px;
+}
+
+.numbers{   
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(3, 300px)
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: '100px';
+    margin:10px;
+    background-Color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-Size: 24px;
+    cursor: pointer;
+}
