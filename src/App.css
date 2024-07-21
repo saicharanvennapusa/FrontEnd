@@ -1,0 +1,15 @@
+
+
+.Apps {
+border:1px solid black;  
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+}
+
+.App {
+border:1px solid blue;
+max-height: 50px;
+width:30px;
+text-align: center;  
+}

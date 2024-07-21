@@ -9,10 +9,12 @@ import Practice from "../Practice/Practice";
 import Apps from "../Carousel/App";
 import Card from "../Card/Card";
 import ModalApp from "../Modal/ModalApp";
+import Starting from "../../App";
 const router = createBrowserRouter(
    createRoutesFromElements(
       <>
-         <Route path="/" element={<App />} />
+         {/* <Route path="/" element={<App />} /> */}
+         <Route path="/" element={<Starting />} />
          <Route path="/stepper" element={<Stepper />} />
          <Route path="/Pagination" element={<Pagination />} />
          <Route path="/test" element={<Practice />} />
